@@ -1,0 +1,54 @@
+.post-card {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content {
+    max-width: 70%;
+  }
+  
+  .post-category {
+    font-size: 0.9em;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  .post-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .continue-reading {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .post-thumbnail {
+    width: 25%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #555;
+    border-radius: 4px;
+  }
+  
