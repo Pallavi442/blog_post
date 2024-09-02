@@ -46,31 +46,31 @@ const BlogForm = ({ onAddBlog }) => {
       <h2>Submit a Blog Post</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label>Title</label>
+          <label>Title *</label>
           <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} required />
         </div>
         <div className="form-group">
-          <label>Description</label>
+          <label>Description *</label>
           <textarea value={description} onChange={(e) => setDescription(e.target.value)} required></textarea>
         </div>
         <div className="form-group">
-          <label>Featured Post</label>
+          <label>Featured Post *</label>
           <textarea value={featuredPost} onChange={(e) => setFeaturedPost(e.target.value)} required></textarea>
         </div>
         <div className="form-group">
-          <label>Post Title</label>
+          <label>Post Title *</label>
           <input type="text" value={postTitle} onChange={(e) => setPostTitle(e.target.value)} required />
         </div>
         <div className="form-group">
-          <label>Post Description</label>
+          <label>Post Description *</label>
           <textarea value={postDesci} onChange={(e) => setPostDescri(e.target.value)} required></textarea>
         </div>
         <div className="form-group">
-          <label>Date</label>
+          <label>Date *</label>
           <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
         </div>
         <div className="form-group">
-          <label>Heading</label>
+          <label>Heading *</label>
           <input type="text" value={Heading} onChange={(e) => setHeading(e.target.value)} required />
         </div>
         <div className="form-group">
